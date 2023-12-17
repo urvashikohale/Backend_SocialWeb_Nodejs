@@ -3,7 +3,7 @@
 Implemented using Node.js and Express, with MongoDB as the database using Mongoose.
 
 # Table of contents
-Project Overview
+Project Overview/
 Dependencies
 Prerequisites
 Installation
