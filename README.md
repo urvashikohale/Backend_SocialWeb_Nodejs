@@ -1,8 +1,8 @@
-Nodejs Backend Challenge Documentation
+# Nodejs Backend Challenge Documentation
 
 Implemented using Node.js and Express, with MongoDB as the database using Mongoose.
 
-Table of contents
+# Table of contents
 Project Overview
 Dependencies
 Prerequisites
@@ -11,10 +11,10 @@ Configuration
 API Endpoints
 
 
-1. Project Overview <a name="project-overview"></a>
+# 1. Project Overview <a name="project-overview"></a>
 The project allows users to sign up, sign in, sign out, create posts, see posts, comment on posts, and manage user profiles.
 
-2. Dependencies <a name="dependencies"></a>
+# 2. Dependencies <a name="dependencies"></a>
 Node.js: JavaScript runtime for server-side development.
 Express.js: Web application framework for Node.js.
 MongoDB: NoSQL database for data storage.
@@ -26,11 +26,11 @@ jsonwebtoken: Implementation of JSON Web Tokens for authentication.
 express-validator: Express.js middleware for input validation.
 dotenv: Module for loading environment variables.
 
-3.Prerequisites <a name="Prerequisites"></a>
+# 3.Prerequisites <a name="Prerequisites"></a>
 • Node.js, npm and mongodDb installed • Other dependencies mentioned in package.json installed.
 
-4.Installation <a name="installation"></a>
-# Clone the repository
+# 4.Installation <a name="installation"></a>
+**Clone the repository**
 git clone https://github.com/yourusername/yourproject.git
 
 # Change directory
