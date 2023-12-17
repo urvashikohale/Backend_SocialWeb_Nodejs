@@ -4,17 +4,17 @@ Implemented using Node.js and Express, with MongoDB as the database using Mongoo
 
 # Table of contents
 
-[Project Overview](#1-project-overview)
+[Project Overview](#project-overview)
 <br/>
-Dependencies
+[Dependencies](#dependencies)
 <br/>
-Prerequisites
+[Prerequisites](#prerequisites)
 <br/>
-Installation
+[Installation](#installation)
 <br/>
-Configuration
+[Configuration](#configuration)
 <br/>
-API Endpoints
+[API Endpoints](#api-endpoint)
 
 # 1. Project Overview <a name="project-overview"></a>
 
@@ -71,7 +71,7 @@ DATABASE=mongodb://localhost:27017/your-database-name
 <br/>
 SECRET=your-secret-key
 
-# 6. Api Endpoint <a name="api-routes"></a>
+# 6. Api Endpoint <a name="api-endpoint"></a>
 
 **User Registration/ create user**
 
