@@ -27,19 +27,20 @@ express-validator: Express.js middleware for input validation.
 dotenv: Module for loading environment variables.
 
 # 3.Prerequisites <a name="Prerequisites"></a>
-• Node.js, npm and mongodDb installed • Other dependencies mentioned in package.json installed.
+• Node.js, npm and mongodDb installed 
+• Other dependencies mentioned in package.json installed.
 
 # 4.Installation <a name="installation"></a>
 **Clone the repository**
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/urvashikohale/Nodejs_Backend_Challenge.git
 
-# Change directory
-cd yourproject
+**Change directory**
+cd Nodejs_Backend_Challenge
 
-# Install dependencies
+**Install dependencies**
 npm install
 
-5.Configuration <a name="configuration"></a>
+# 5.Configuration <a name="configuration"></a>
 Create a .env file in the root directory.
 Add the following configurations to the .env file: 
 PORT=8000 
@@ -47,16 +48,16 @@ DATABASE=mongodb://localhost:27017/your-database-name
 SECRET=your-secret-key
 
 
-6. Api Endpoint <a name="api-routes"></a>
+# 6. Api Endpoint <a name="api-routes"></a>
 
-User Registration/ create user
+**User Registration/ create user**
 
 Signup:
 Endpoint: POST /api/signup
 Validates user input using express-validator.
 Creates a new user in the database.
 
-User Authentication 
+**User Authentication**
 
 Signin:
 Endpoint: POST /api/signin
@@ -67,7 +68,7 @@ Signout:
 Endpoint: GET /api/signout
 Clears the user's JWT token from the cookie.
 
-User Profile
+**User Profile**
 
 Get User Profile:
 Endpoint: GET /api/user/:userId
@@ -77,7 +78,7 @@ Update User profile:
 Endpoint: PUT /api/user/:userId
 Updates user profile information.
 
-Post & Comment
+**Post & Comment**
 
 Create a post:
 Endpoint: POST /api/posts/new/:userId
