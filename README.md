@@ -71,7 +71,7 @@ SECRET=your-secret-key
 
 **User Registration/ create user**
 
-Signup:
+•Signup:
 <br/>
 Endpoint: POST /api/signup
 <br/>
@@ -81,7 +81,7 @@ Creates a new user in the database.
 
 **User Authentication**
 
-Signin:
+•Signin:
 <br/>
 Endpoint: POST /api/signin
 <br/>
@@ -89,7 +89,7 @@ Validates user input using express-validator.
 <br/>
 Authenticates the user and generates a JWT token.
 
-Signout:
+•Signout:
 <br/>
 Endpoint: GET /api/signout
 <br/>
@@ -97,14 +97,14 @@ Clears the user's JWT token from the cookie.
 
 **User Profile**
 
-Get User Profile:
+•Get User Profile:
 <br/>
 Endpoint: GET /api/user/:userId
 <br/>
 Retrieves user profile information.
 <br/>
 
-Update User profile:
+•Update User profile:
 <br/>
 Endpoint: PUT /api/user/:userId
 <br/>
@@ -112,7 +112,7 @@ Updates user profile information.
 
 **Post & Comment**
 
-Create a post:
+•Create a post:
 <br/>
 Endpoint: POST /api/posts/new/:userId
 <br/>
@@ -120,31 +120,31 @@ Creates a new post.
 <br/>
 Handles file uploads using formidable.
 
-Get Post:
+•Get Post:
 <br/>
 Endpoint: GET /api/posts/by/:userId
 <br/>
 Retrieves posts by a specific user.
 
-Get All post:
+•Get All post:
 <br/>
 Endpoint: GET /api/posts
 <br/>
 Retrieves all posts.
 
-Delete a post
+•Delete a post
 <br/>
 Endpoint: DELETE /api/post/:userId/:postId
 <br/>
 Deletes a specific post.
 
-Update a post:
+•Update a post:
 <br/>
 Endpoint: PUT /api/post/:userId/:postId
 <br/>
 update a post
 
-Comment on post:
+•Comment on post:
 <br/>
 Endpoint: PUT /api/post/:userId/:postId
 <br/>
