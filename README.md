@@ -57,9 +57,11 @@ npm install
 
 # 5.Configuration <a name="configuration"></a>
 Create a .env file in the root directory.
+
 <br/>
 Add the following configurations to the .env file: 
-<br/>
+
+br/>
 PORT=8000 
 <br/>
 DATABASE=mongodb://localhost:27017/your-database-name 
