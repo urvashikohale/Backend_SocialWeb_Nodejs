@@ -6,9 +6,13 @@ Implemented using Node.js and Express, with MongoDB as the database using Mongoo
 Project Overview
 <br/>
 Dependencies
+<br/>
 Prerequisites
+<br/>
 Installation
+<br/>
 Configuration
+<br/>
 API Endpoints
 
 
@@ -17,18 +21,28 @@ The project allows users to sign up, sign in, sign out, create posts, see posts,
 
 # 2. Dependencies <a name="dependencies"></a>
 Node.js: JavaScript runtime for server-side development.
+<br/>
 Express.js: Web application framework for Node.js.
+<br/>
 MongoDB: NoSQL database for data storage.
+<br/>
 Mongoose: MongoDB object modeling for Node.js.
+<br/>
 express-jwt: Middleware for validating JSON Web Tokens (JWT).
+<br/>
 formidable: A form data parsing library.
+<br/>
 crypto: Node.js cryptographic library.
+<br/>
 jsonwebtoken: Implementation of JSON Web Tokens for authentication.
+<br/>
 express-validator: Express.js middleware for input validation.
+<br/>
 dotenv: Module for loading environment variables.
 
 # 3.Prerequisites <a name="Prerequisites"></a>
 • Node.js, npm and mongodDb installed 
+<br/>
 • Other dependencies mentioned in package.json installed.
 
 # 4.Installation <a name="installation"></a>
@@ -43,9 +57,13 @@ npm install
 
 # 5.Configuration <a name="configuration"></a>
 Create a .env file in the root directory.
+<br/>
 Add the following configurations to the .env file: 
+<br/>
 PORT=8000 
+<br/>
 DATABASE=mongodb://localhost:27017/your-database-name 
+<br/>
 SECRET=your-secret-key
 
 
