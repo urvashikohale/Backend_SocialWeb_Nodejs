@@ -46,13 +46,13 @@ dotenv: Module for loading environment variables.
 • Other dependencies mentioned in package.json installed.
 
 # 4.Installation <a name="installation"></a>
-**Clone the repository**
+**Clone the repository**<br/>
 git clone https://github.com/urvashikohale/Nodejs_Backend_Challenge.git
 
-**Change directory**
+**Change directory**<br/>
 cd Nodejs_Backend_Challenge
 
-**Install dependencies**
+**Install dependencies**<br/>
 npm install
 
 # 5.Configuration <a name="configuration"></a>
@@ -72,29 +72,44 @@ SECRET=your-secret-key
 **User Registration/ create user**
 
 Signup:
+
+<br/>
 Endpoint: POST /api/signup
+<br/>
 Validates user input using express-validator.
+<br/>
 Creates a new user in the database.
 
 **User Authentication**
 
 Signin:
+<br/>
 Endpoint: POST /api/signin
+<br/>
 Validates user input using express-validator.
+<br/>
 Authenticates the user and generates a JWT token.
 
 Signout:
+<br/>
 Endpoint: GET /api/signout
+<br/>
 Clears the user's JWT token from the cookie.
 
 **User Profile**
 
 Get User Profile:
+<br/>
 Endpoint: GET /api/user/:userId
+<br/>
 Retrieves user profile information.
+<br/>
 
 Update User profile:
+
+<br/>
 Endpoint: PUT /api/user/:userId
+<br/>
 Updates user profile information.
 
 **Post & Comment**
