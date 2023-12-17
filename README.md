@@ -72,7 +72,6 @@ SECRET=your-secret-key
 **User Registration/ create user**
 
 Signup:
-
 <br/>
 Endpoint: POST /api/signup
 <br/>
@@ -106,7 +105,6 @@ Retrieves user profile information.
 <br/>
 
 Update User profile:
-
 <br/>
 Endpoint: PUT /api/user/:userId
 <br/>
@@ -115,28 +113,41 @@ Updates user profile information.
 **Post & Comment**
 
 Create a post:
+<br/>
 Endpoint: POST /api/posts/new/:userId
+<br/>
 Creates a new post.
+<br/>
 Handles file uploads using formidable.
 
 Get Post:
+<br/>
 Endpoint: GET /api/posts/by/:userId
+<br/>
 Retrieves posts by a specific user.
 
 Get All post:
+<br/>
 Endpoint: GET /api/posts
+<br/>
 Retrieves all posts.
 
 Delete a post
+<br/>
 Endpoint: DELETE /api/post/:userId/:postId
+<br/>
 Deletes a specific post.
 
 Update a post:
+<br/>
 Endpoint: PUT /api/post/:userId/:postId
+<br/>
 update a post
 
 Comment on post:
+<br/>
 Endpoint: PUT /api/post/:userId/:postId
+<br/>
 Adds a comment to a specific post.
 
 
